@@ -1,0 +1,114 @@
+
+
+
+*::before,
+*::after {
+    margin: 0;
+    padding: 0,
+    
+}
+
+
+/* banner start here */
+.banner {
+    background-image: url('../images/banner.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.banner-content {
+    background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background for better readability */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px; /* Maximum width for the content */
+}
+
+/* banner end here */
+
+
+
+/* Middle part start here */
+.container-custom {
+    display: flex;
+    align-items: center;
+    height: 100vh; /* Optional: Full viewport height */
+}
+.image-part {
+    flex: 1;
+    background-image: url('your-image.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.text-part {
+    flex: 1;
+    padding: 20px;
+}
+/* Middle part end here */
+
+
+
+.container_part2 {
+    width: 1069px;
+    height: 592px;
+    top: 728px;
+    left: 163px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.container-banner-2 .row .col .Download-btn {
+    border-radius: round;
+}
+
+
+.background-container {
+            background-color:rgb(230, 43, 136) ;
+            background-size: cover;
+            background-position: center;
+            /* height: 100vh; */
+            width: 850px ;
+            height: 360px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            border-radius: 35px;
+            margin-left: 45px;
+            margin-top: 350px;
+        }
+        .content {
+            background: rgba(0, 0, 0, 0.5); 
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+
+        .background-section {
+            background-image: url('background-image.jpg'); 
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 50px;
+            border-radius: 10px;
+        }
+        .background-content {
+            background: rgba(0, 0, 0, 0.5); 
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .icon-image {
+            width: 50px;
+            height: 50px;
+        }
